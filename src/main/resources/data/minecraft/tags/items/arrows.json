@@ -1,0 +1,10 @@
+{
+  "replace": "false",
+  "values": [
+    "gud_arrows:egg_arrow",
+    "gud_arrows:explosive_arrow",
+    "gud_arrows:fire_arrow",
+    "gud_arrows:ice_arrow",
+    "gud_arrows:lightning_arrow"
+  ]
+}

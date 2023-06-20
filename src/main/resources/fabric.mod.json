@@ -1,0 +1,31 @@
+{
+	"schemaVersion": 1,
+	"id": "gud_arrows",
+	"version": "${version}",
+	"name": "gudArrows",
+	"description": "Adds a few more arrows to Minecraft",
+	"authors": [
+		"gudenau"
+	],
+	"contact": {
+		"homepage": "https://curseforge.com/minecraft/mc-mods/gudarrows",
+		"sources": "https://github.com/gudenau/minecraft-gudArrows"
+	},
+	"license": "",
+	"icon": "assets/gud_arrows/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.gudenau.minecraft.arrows.GudArrows"
+		],
+		"client": [
+			"net.gudenau.minecraft.arrows.client.GudArrowsClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.14.21",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	}
+}
